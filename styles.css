@@ -5,7 +5,8 @@ body {
 
 body * {
 	box-sizing: border-box;
-	font-family: Poppins;
+	font-family: 'Poppins', sans-serif;
+
 }
 
 main {
@@ -45,8 +46,6 @@ main {
 	width: 100%;
 	text-align: left;
 	color: #2A1F3F;
-  	font-family: Poppins;
-  	font: Extra-bold;
   	font-size: 28px;
   	font-weight: 700;
   	line-height: 34px;
@@ -69,10 +68,12 @@ main {
 
 .install-fonts-section > .sub-section h2{
 	margin-bottom: 20px;
+	font-size: 28px;
 }
 
 .install-fonts-section > .sub-section h3 {
 	margin-top: 40px 0px 10px 0px;
+	font-size: 20px;
 }
 
 .install-fonts-section  > .sub-section ul {
@@ -355,17 +356,17 @@ main {
 
 .show-more-comments span {
 	color: #2A1F3F;
-  	font-size: 12px;
+  	font-size: 14px;
   	font-weight: 700;
   	letter-spacing: 1px;
-  	line-height: 14px;
+  	line-height: 17px;
 
 }
 .show-more-comments .double-arrow {
 	transform:rotate(90deg);
 	display: inline-block;
 	font-size: 14px;
-  	font-weight: 400;
+  	font-weight: 700;
   	line-height: 17px;
   	text-align: left;
 }
@@ -503,7 +504,8 @@ aside .blog {
 		width: 48%;
 		
 	}
-
+	
+	/*margin-right only for odd elemnts*/
 	.blog:nth-child(odd) {
  	margin-right: calc(4% - 4px);
 	}
